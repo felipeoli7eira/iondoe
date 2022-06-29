@@ -1,0 +1,7 @@
+{
+  "name": "iondoe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
