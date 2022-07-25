@@ -10,6 +10,7 @@
  */
 
 /* Core CSS required for Ionic components to work properly */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import "~@ionic/angular/css/core.css";
 
 /* Basic CSS for apps built with Ionic */
@@ -24,3 +25,29 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+    --ion-font-family: 'Varela Round', sans-serif;
+}
+
+.debug {
+    border: 1px solid red;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.tab-doar-grid {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.debug.g {
+    border: 1px solid green;
+}
+
+.debug.y {
+    border: 1px solid yellow;
+}

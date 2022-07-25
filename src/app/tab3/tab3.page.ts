@@ -9,4 +9,9 @@ export class Tab3Page {
 
   constructor() {}
 
+  abrirWhatsApp()
+  {
+    window.open('https://wa.me/5596984157994/?text=Oi,%20estou%20precisando%20de%20ajuda%20voluntária.', '_blank').focus();
+    // window.open('whatsapp://app').focus();
+  }
 }
